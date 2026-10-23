@@ -7,7 +7,8 @@ namespace CalcLab
         /// <summary>Ввод B</summary>
         public void ReadB()
         {
-            throw new NotImplementedException("Ещё не реализовано: Ввод B");
+                    Console.Write("B = ");
+        _b = double.Parse(Console.ReadLine().Replace(",", "."), System.Globalization.CultureInfo.InvariantCulture);
         }
     }
 }
