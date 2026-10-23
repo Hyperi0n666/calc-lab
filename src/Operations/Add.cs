@@ -7,7 +7,7 @@ namespace CalcLab
         /// <summary>сложение</summary>
         public void Add()
         {
-            throw new NotImplementedException("Ещё не реализовано: сложение");
+                    Console.WriteLine("{0} + {1} = {2}", _a, _b, _a + _b);
         }
     }
 }

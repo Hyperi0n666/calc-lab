@@ -7,7 +7,7 @@ namespace CalcLab
         /// <summary>умножение</summary>
         public void Mul()
         {
-            throw new NotImplementedException("Ещё не реализовано: умножение");
+                    Console.WriteLine("{0} * {1} = {2}", _a, _b, _a * _b);
         }
     }
 }
