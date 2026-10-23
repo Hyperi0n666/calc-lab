@@ -1,0 +1,9 @@
+bin/
+obj/
+*.exe
+*.pdb
+out/
+*.ps1
+*.sh
+*.py
+run_input.txt
